@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start":"npm run build && node dist/index.js",
-    "dev":"tsx --watch"
+    "dev":"tsx --watch index.ts"
   },
   "devDependencies": {
     "tsx": "^4.23.12",
