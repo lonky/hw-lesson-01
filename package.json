@@ -9,10 +9,11 @@
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
-    "start":"tsx index.ts",
-    "dev":"tsx --watch index.ts"
+    "start": "tsx index.ts",
+    "dev": "tsx --watch index.ts"
   },
   "devDependencies": {
+    "prettier": "^3.9.6",
     "tsx": "^4.23.12",
     "typescript": "^7.0.2"
   }
